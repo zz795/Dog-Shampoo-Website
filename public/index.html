@@ -1,0 +1,260 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <section class="hero has-background-light is-small">
+      <div class="hero-body">
+        <header class="main-header">
+          <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+              <div class="navbar-brand mx-5 my-4">
+                <div>
+                  <p class="is-size-6"><strong>Paws</strong></p>
+                  <p class="is-size-6"><strong>&</strong></p>
+                  <p class="is-size-6"><strong>Bubbles</strong></p>
+                </div>
+              </div>
+              <div class="navbar-start">
+                <a href="#home" class="navbar-item"> Home </a>
+                <a href="#products" class="navbar-item"> Products </a>
+                <a href="#reivews" class="navbar-item"> Reviews </a>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+    </section>
+    <!------------------- HOME ------------------->
+    <!-- adding white space -->
+    <section class="hero>">
+      <div class="hero-body"></div>
+    </section>
+    <!-- Components -->
+    <div id="home" class="columns">
+      <!-- left (slogan) -->
+      <div class="column has-text-left is-offset-1">
+        <!-- white space -->
+        <section class="hero>">
+          <div class="hero-body"></div>
+        </section>
+        <section class="section">
+          <h1 class="title is-2">Your Next Dog Shampoo, Not Just a Shampoo</h1>
+          <h2 class="subtitle mt-4 mb-5" style="color: #0096ff">
+            Professional. So Fresh. So Clean. So Shine.
+          </h2>
+          <button class="button is-medium is-black">Learn more</button>
+        </section>
+      </div>
+      <!-- right (image) -->
+      <div class="column is-5 my-6">
+        <figure class="image is-4by3">
+          <img
+            src="https://preview.redd.it/djq5q903usfy.png?width=640&crop=smart&auto=webp&s=8035bb74099eacfd4320b6a998498dbf4a42879d"
+            alt="home image"
+          />
+        </figure>
+      </div>
+      <!-- additional white space column -->
+      <div class="column is-1"></div>
+    </div>
+    <!------------------- PRODUCTS ------------------->
+    <section class="hero has-background-light">
+      <div id="products" class="hero-body">
+        <!-- blank section for additional white space -->
+        <section class="section"></section>
+
+        <!-- contents -->
+        <div class="columns">
+          <!-- left -->
+          <div class="column is-offset-2 is-one-quarter">
+            <div id="product-section" class="columns">
+              <!-- Products will be loaded dynamically here -->
+            </div>
+            <div class="columns has-text-centered">
+              <div class="column is-one-third">
+                <button
+                  id="previous-button"
+                  class="button is-black is-fullwidth"
+                >
+                  <strong> &larr; </strong>
+                </button>
+              </div>
+              <div class="column"></div>
+              <div class="column">
+                <button id="next-button" class="button is-black is-fullwidth">
+                  <strong> &rarr; </strong>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- additional blank for spacing -->
+          <div class="column is-1"></div>
+
+          <!-- right -->
+          <div id="product-description" class="column">
+            <!-- Product descriptions will be loaded dynamically here -->
+          </div>
+        </div>
+        <!-- blank section for additional white space -->
+        <section class="section"></section>
+      </div>
+    </section>
+    <!------------------- REVIEWS ------------------->
+    <section class="hero">
+      <div id="reivews" class="hero-body">
+        <div class="columns">
+          <!-- Title and Subtitle -->
+          <div class="column has-text-centered">
+            <div class="title mt-6 mb-4">🐾 Pawsitive Feedback</div>
+            <div class="subtitle mt-4 mb-6">
+              Real Stories from Happy Tails and Shiny Coats
+            </div>
+          </div>
+        </div>
+        <!-- Reviews -->
+        <div class="columns is-centered">
+          <!-- Review 1 -->
+          <div class="column is-one-quarter">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="https://images.dog.ceo/breeds/bullterrier-staffordshire/n02093256_7577.jpg"
+                    alt="review1"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="https://superblog.supercdn.cloud/site_cuid_clilou76g4798113tmf1lw59vru/images/instagram-man-ideas-3-1687868963182-compressed.PNG"
+                        alt="review_person1"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Marcus Lee</p>
+                    <p class="subtitle is-6">@marcus_and_rover</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Was skeptical at first, but Paws & Bubbles has turned me into
+                  a believer. My dog Rover has sensitive skin, and this is the
+                  first shampoo that didn't cause him any irritation. Bonus
+                  points for the eco-friendly packaging!
+                  <a href="#">#FurryFriends</a> <a href="#">#PetLovers</a>
+                  <br />
+                  <time datetime="2023-12-9">11:09 PM - 9 Dec 2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Review 2 -->
+          <div class="column is-one-quarter">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="https://images.dog.ceo/breeds/retriever-golden/n02099601_7123.jpg"
+                    alt="review2"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture-1024x1024.jpg"
+                        alt="review_person2"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Jessica Smith</p>
+                    <p class="subtitle is-6">@jessicasmiles</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  I've tried numerous shampoos for my Golden Retriever, but
+                  nothing compares to their products. After just one wash, his
+                  coat was noticeably shinier and softer. Absolutely love the
+                  natural ingredients list and the subtle lavender scent. Highly
+                  recommend it to all dog parents out there!
+                  <br />
+                  <time datetime="2024-1-15">12:34 PM - 15 Jan 2024</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Review 3 -->
+          <div class="column is-one-quarter">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="https://images.dog.ceo/breeds/bulldog-boston/n02096585_2374.jpg"
+                    alt="review3"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-48x48">
+                      <img
+                        src="https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg"
+                        alt="review_person3"
+                      />
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-4">Emily Patel</p>
+                    <p class="subtitle is-6">@emilyp_paws</p>
+                  </div>
+                </div>
+
+                <div class="content">
+                  I have been used <a>@Paws&Bubbles</a> products over many
+                  years. Strongly recommend!
+                  <br />
+                  <time datetime="2023-8-15">6:45 PM - 15 Aug 2023</time>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="columns">
+        <div class="column is-half is-offset-one-fifth">
+          <p><strong>Paws & Bubbles</strong></p>
+          <p class="is-size-7">&copy; 2020 - 2030</p>
+          <p class="is-size-7">
+            <a href="#">Privacy</a> - <a href="#">Terms</a>
+          </p>
+        </div>
+        <div class="column">
+          <p><strong>Follow us on</strong></p>
+          <p class="is-size-6"><a href="#">Instagram</a></p>
+          <p class="is-size-6"><a href="#">Facebook</a></p>
+        </div>
+      </div>
+    </footer>
+    <script src="products.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "The Gleam",
+    "description": "Unleash a radiant coat with <em> The Gleam </em> Dog Shampoo, our best-selling formula. Infused with oatmeal, honey, and beeswax, it’s the ultimate solution for a moisturized, nourished, and gleaming coat.",
+    "price": "$16.99",
+    "priceURL": "https://buy.stripe.com/test_aEU01R61P3cj7DicMM",
+    "imageUrl": "https://i.ibb.co/j5KLCrW/The-Gleam2.png",
+    "features": ["Deep Nourishment", "Intense Moisturization", "Radiant Shine"]
+  },
+  {
+    "id": 2,
+    "name": "The Sensitive",
+    "description": "<em> The Sensitive </em> Dog Shampoo offers a hypoallergenic cleanse for pets with sensitive skin. Enriched with manuka honey, argan oil, aloe vera, and chamomile, it hydrates and calms dry, itchy skin.",
+    "price": "$19.99",
+    "priceURL": "https://buy.stripe.com/test_bIY01Rbm96ov9LqeUV",
+    "imageUrl": "https://i.ibb.co/VxTSJ2V/The-Sensitive.png",
+    "features": ["Gentle Relief", "Plant-Based Hydration", "Unscented Formula"]
+  },
+  {
+    "id": 3,
+    "name": "The Curly",
+    "description": "Specially formulated for poodles, goldendoodles, and similar breeds, <em> The Curly </em> Dog Shampoo harnesses the power of coconut oil, shea butter, and hydrolyzed soy protein to unleash effortlessly detangled, lifted, and beautifully defined curls.",
+    "price": "$15.99",
+    "priceURL": "https://buy.stripe.com/test_cN2aGvduh9AH4r63cf",
+    "imageUrl": "https://i.ibb.co/r4Dy9Sv/TheCurly.png",
+    "features": ["Enhanced Curl Definition", "Tangle-Free", "Volume Boost"]
+  }
+]
